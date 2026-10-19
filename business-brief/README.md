@@ -12,7 +12,7 @@
 - 실행: 30·60·90, 면접·첫 미팅 아젠다, 입사 전 체크리스트
 
 ## 설치
-- **claude.ai**: [Releases](https://github.com/SuHyunNoh/career-ai-skills/releases)에서 `business-brief.zip`을 받아 스킬로 업로드
+- **claude.ai**: [Releases](https://github.com/findot-ai/career-ai-skills/releases)에서 `business-brief.zip`을 받아 스킬로 업로드
 - **Claude Code**: 이 폴더를 `~/.claude/skills/business-brief/`에 복사
 
 ## 사용

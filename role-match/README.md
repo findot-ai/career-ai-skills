@@ -13,7 +13,7 @@
 합격 확률은 말하지 않습니다. 근거가 있는 곳과 빈 곳을 말합니다.
 
 ## 설치
-- **claude.ai**: [Releases](https://github.com/SuHyunNoh/career-ai-skills/releases)에서 `role-match.zip`을 받아 스킬로 업로드
+- **claude.ai**: [Releases](https://github.com/findot-ai/career-ai-skills/releases)에서 `role-match.zip`을 받아 스킬로 업로드
 - **Claude Code**: 이 폴더를 `~/.claude/skills/role-match/`에 복사
 
 ## 사용

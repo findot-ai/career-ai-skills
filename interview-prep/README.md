@@ -10,7 +10,7 @@
 - **복기** — 질문 원문, 분류, 여러 면접 누적 패턴
 
 ## 설치
-- **claude.ai**: [Releases](https://github.com/SuHyunNoh/career-ai-skills/releases)에서 `interview-prep.zip`을 받아 스킬로 업로드
+- **claude.ai**: [Releases](https://github.com/findot-ai/career-ai-skills/releases)에서 `interview-prep.zip`을 받아 스킬로 업로드
 - **Claude Code**: 이 폴더를 `~/.claude/skills/interview-prep/`에 복사
 
 ## 사용

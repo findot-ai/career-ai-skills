@@ -28,7 +28,7 @@ career-define ──▶ role-match ──▶ business-brief ──▶ interview-
 모든 스킬은 베타입니다. 실전에 써 보며 고치고 있습니다.
 
 ## 설치
-- **claude.ai**: [Releases](https://github.com/SuHyunNoh/career-ai-skills/releases)에서 스킬별 zip을 받아 스킬로 업로드
+- **claude.ai**: [Releases](https://github.com/findot-ai/career-ai-skills/releases)에서 스킬별 zip을 받아 스킬로 업로드
 - **Claude Code**: 쓰려는 스킬 폴더를 `~/.claude/skills/`에 복사
 
 ## 원칙

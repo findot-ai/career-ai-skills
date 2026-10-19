@@ -9,7 +9,7 @@
 성과 숫자는 지원자에게서만 받습니다. 모르면 '미확인'으로 둡니다.
 
 ## 설치
-- **claude.ai**: [Releases](https://github.com/SuHyunNoh/career-ai-skills/releases)에서 `career-define.zip`을 받아 스킬로 업로드
+- **claude.ai**: [Releases](https://github.com/findot-ai/career-ai-skills/releases)에서 `career-define.zip`을 받아 스킬로 업로드
 - **Claude Code**: 이 폴더를 `~/.claude/skills/career-define/`에 복사
 
 ## 사용
