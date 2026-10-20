@@ -1,6 +1,6 @@
 ---
-name: role-match
-description: 채용 공고와 지원자 경력을 받아, 회사의 지금 상황에서 그 자리가 실제로 보는 핵심 포인트 3개를 좁히고 포인트마다 지원자 사례 하나를 매칭한다. 결격 조건을 점검하고 강 / 번역 필요 / 없음으로 판정하며, 지원 전 판정을 기록해 결과와 대조한다. "이 공고 지원할까", "공고 매칭", "서류 될까", "role match", "/match" 요청에 트리거.
+name: "role-match"
+description: "채용 공고에서 자리가 실제로 보는 포인트 3개를 좁혀 지원자 사례와 매칭하고 결격을 점검한다. \"이 공고 지원할까\", \"공고 매칭\", \"서류 될까\", \"나랑 맞는 자리야?\", \"이 JD 어때\", 공고 URL이나 본문을 붙여넣고 지원 여부를 묻는 경우, \"/match\" 요청에 사용. 가볍게 지원 여부를 판단할 때 쓰고, 최종 면접·오퍼·합류처럼 회사 사업 구조까지 깊게 봐야 하면 business-brief를 쓴다."
 ---
 
 # Role Match — 그 자리가 실제로 보는 것 세 가지
@@ -53,3 +53,14 @@ description: 채용 공고와 지원자 경력을 받아, 회사의 지금 상�
 5. 지향 일치도: 높음 / 중간 / 낮음 + 한 줄 (자료가 있을 때만)
 6. 질문 대기 · 확인하지 못한 것
 7. 예측 기록 한 줄 (03_log 형식)
+
+## 연결 (커리어 스킬 공통 파일)
+이 스킬이 만든 파일을 다른 스킬이 재료로 쓴다. 파일명을 바꾸지 않는다.
+| 파일 | 만드는 스킬 | 쓰는 스킬 |
+|---|---|---|
+| `case_bank.md` · `profile.md` · `direction.md` | career-define | role-match · business-brief · interview-prep |
+| `match_log.md` (예측 기록) | role-match | interview-prep(결과 기록) |
+| `debrief_log.md` (면접 복기 누적) | interview-prep | interview-prep · career-define |
+| `career_log.md` (성과 항목) | career-log | career-define(사례 카드 재료) |
+
+각 단계의 상세 규칙은 `references/` 폴더의 같은 이름 파일에 있다.

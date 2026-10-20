@@ -1,6 +1,6 @@
 ---
-name: business-brief
-description: 채용 공고와 지원자 경력을 받아, 회사 상황에서 이 자리가 실제로 보는 핵심 포인트 3개를 좁히고 포인트마다 지원자 사례를 매칭한다. 필요한 만큼 사업·재무 구조, 플라이휠, 액션 플랜, 면접/첫 미팅 아젠다까지 한 장 브리프로 만든다. 구직자가 지원·면접·오퍼 판단·합류 준비를 할 때 사용. "이 회사 분석", "공고 분석", "business brief", "/brief", "면접 준비", "합류 준비" 요청에 트리거.
+name: "business-brief"
+description: "채용 공고에서 회사의 사업·재무 구조와 이 자리가 보는 포인트 3개를 뽑아 지원자 사례와 맞춘 한 장 브리프를 만든다. \"이 회사 분석\", \"공고 분석\", \"오퍼 받았는데 이 회사 괜찮아?\", \"최종 면접 전에 회사 공부\", \"입사 전 준비\", \"합류 준비\", \"첫 30·60·90일 계획\", \"/brief\" 요청에 사용. 지원 여부만 가볍게 보려면 role-match를 쓴다."
 ---
 
 # Business Brief — 구직자를 위한 회사 사업 브리프
@@ -60,3 +60,14 @@ description: 채용 공고와 지원자 경력을 받아, 회사 상황에서 �
 - 회사를 평가하거나 깎아내리는 톤. 사실과 질문으로만.
 - 출처 없는 업계 평균을 그 회사 숫자처럼 쓰기.
 - 공개되지 않은 내부 자료를 추측해서 사실처럼 쓰기.
+
+## 연결 (커리어 스킬 공통 파일)
+이 스킬이 만든 파일을 다른 스킬이 재료로 쓴다. 파일명을 바꾸지 않는다.
+| 파일 | 만드는 스킬 | 쓰는 스킬 |
+|---|---|---|
+| `case_bank.md` · `profile.md` · `direction.md` | career-define | role-match · business-brief · interview-prep |
+| `match_log.md` (예측 기록) | role-match | interview-prep(결과 기록) |
+| `debrief_log.md` (면접 복기 누적) | interview-prep | interview-prep · career-define |
+| `career_log.md` (성과 항목) | career-log | career-define(사례 카드 재료) |
+
+각 단계의 상세 규칙은 `references/` 폴더의 같은 이름 파일에 있다.

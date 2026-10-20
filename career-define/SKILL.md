@@ -1,6 +1,6 @@
 ---
-name: career-define
-description: 지원자에게 질문해 경력 원재료를 끌어내고, 사례 은행·고정 프로필·지향 한 문장을 만든다. 성과 숫자는 지원자에게서만 받고 만들지 않는다. 이직·지원 준비를 시작할 때, 경력기술서를 고치기 전에 사용. "내 경력 정리", "사례 정리", "나를 정의", "커리어 방향", "career define", "/define" 요청에 트리거.
+name: "career-define"
+description: "질문으로 경력 원재료를 끌어내 사례 은행·고정 프로필·지향 한 문장을 만든다. 이직 준비 시작, \"내 경력 정리\", \"사례 정리\", \"커리어 방향\", \"경력기술서를 처음부터 다시 쓰고 싶다\", \"내 강점이 뭔지 모르겠다\", \"왜 이직하는지 정리\", \"/define\" 요청에 사용. role-match·business-brief·interview-prep이 이 결과 파일을 재료로 쓰므로, 경력 자료가 아직 정리되지 않은 상태에서 지원·면접 준비를 시작하려 하면 먼저 이 스킬을 쓴다."
 ---
 
 # Career Define — AI가 내 경력을 인터뷰한다
@@ -39,3 +39,14 @@ description: 지원자에게 질문해 경력 원재료를 끌어내고, 사례 
 ## 하지 않는 것
 - 사례를 그럴듯하게 부풀리기, 없는 숫자 채우기
 - 성격·적성 진단. 지원자가 말한 것만 정리한다
+
+## 연결 (커리어 스킬 공통 파일)
+이 스킬이 만든 파일을 다른 스킬이 재료로 쓴다. 파일명을 바꾸지 않는다.
+| 파일 | 만드는 스킬 | 쓰는 스킬 |
+|---|---|---|
+| `case_bank.md` · `profile.md` · `direction.md` | career-define | role-match · business-brief · interview-prep |
+| `match_log.md` (예측 기록) | role-match | interview-prep(결과 기록) |
+| `debrief_log.md` (면접 복기 누적) | interview-prep | interview-prep · career-define |
+| `career_log.md` (성과 항목) | career-log | career-define(사례 카드 재료) |
+
+각 단계의 상세 규칙은 `references/` 폴더의 같은 이름 파일에 있다.

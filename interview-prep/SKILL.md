@@ -1,6 +1,6 @@
 ---
-name: interview-prep
-description: 면접 단계와 공고, 지원자의 사례 은행을 받아 그 단계가 실제로 보는 것 기준으로 예상 질문·답의 뼈대·실무 연습·역질문을 만들고, 면접 후에는 실제 질문을 복기해 여러 면접에 걸친 패턴을 찾는다. "면접 준비", "예상 질문", "역질문", "면접 복기", "interview prep", "/interview" 요청에 트리거.
+name: "interview-prep"
+description: "면접 단계가 실제로 보는 것 기준으로 예상 질문·답의 뼈대·실무 연습·역질문을 만들고, 면접 후 복기로 패턴을 찾는다. \"면접 준비\", \"예상 질문\", \"역질문\", \"다음 주 2차 면접\", \"임원 면접 대비\", \"면접 끝났는데 복기\", \"면접에서 이런 질문 받았어\", \"/interview\" 요청에 사용. 지원자 입장의 면접 준비용이며, 내가 면접관으로 질문지를 만드는 경우에는 쓰지 않는다."
 ---
 
 # Interview Prep — 면접 준비는 내 경력의 번역이다
@@ -41,3 +41,14 @@ role-match 결과가 없으면 포인트 3개와 매칭만 간단히 먼저 만�
 ## 하지 않는 것
 - 모범 답안 암기형 문장
 - 면접관 개인에 대한 조사. 공개된 직무 발언·인터뷰까지만
+
+## 연결 (커리어 스킬 공통 파일)
+이 스킬이 만든 파일을 다른 스킬이 재료로 쓴다. 파일명을 바꾸지 않는다.
+| 파일 | 만드는 스킬 | 쓰는 스킬 |
+|---|---|---|
+| `case_bank.md` · `profile.md` · `direction.md` | career-define | role-match · business-brief · interview-prep |
+| `match_log.md` (예측 기록) | role-match | interview-prep(결과 기록) |
+| `debrief_log.md` (면접 복기 누적) | interview-prep | interview-prep · career-define |
+| `career_log.md` (성과 항목) | career-log | career-define(사례 카드 재료) |
+
+각 단계의 상세 규칙은 `references/` 폴더의 같은 이름 파일에 있다.
