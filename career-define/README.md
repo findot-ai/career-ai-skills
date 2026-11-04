@@ -19,6 +19,10 @@
 ```
 질문은 한 번에 3개 이하로 옵니다. 결과는 `case_bank.md`, `profile.md`, `direction.md` 파일로 남겨 다음에 이어 씁니다.
 
+면접 복기가 쌓였다면 갱신할 때 `debrief_log.md`도 함께 넣으세요. 면접에서 반복된 질문과 관련된 사례 카드부터 다시 묻습니다.
+
+파일은 자동으로 저장되지 않아요. 지난 파일을 같이 넘겨야 이어 씁니다.
+
 ## 이어지는 스킬
 결과는 [role-match](../role-match/), [business-brief](../business-brief/), [interview-prep](../interview-prep/)의 입력이 됩니다.
 

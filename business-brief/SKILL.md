@@ -62,12 +62,12 @@ description: "채용 공고에서 회사의 사업·재무 구조와 이 자리�
 - 공개되지 않은 내부 자료를 추측해서 사실처럼 쓰기.
 
 ## 연결 (커리어 스킬 공통 파일)
-이 스킬이 만든 파일을 다른 스킬이 재료로 쓴다. 파일명을 바꾸지 않는다.
+이 스킬이 만든 파일을 다른 스킬이 재료로 쓴다. 파일명을 바꾸지 않는다. 파일은 자동으로 이어지지 않는다. 지난 파일을 지원자가 다음 실행에 넘겨야 한다.
 | 파일 | 만드는 스킬 | 쓰는 스킬 |
 |---|---|---|
 | `case_bank.md` · `profile.md` · `direction.md` | career-define | role-match · business-brief · interview-prep |
 | `match_log.md` (예측 기록) | role-match | interview-prep(결과 기록) |
-| `debrief_log.md` (면접 복기 누적) | interview-prep | interview-prep · career-define |
+| `debrief_log.md` (면접 복기 누적) | interview-prep | interview-prep · career-define(갱신 모드 0-1단계) |
 | `career_log.md` (성과 항목) | career-log | career-define(사례 카드 재료) |
 
 각 단계의 상세 규칙은 `references/` 폴더의 같은 이름 파일에 있다.
