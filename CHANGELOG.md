@@ -8,3 +8,4 @@
 - **evals/ 추가**: 4개 스킬 각 3케이스(정상 · 함정 · 경계). 스킬 폴더에서 `claude plugin eval .`로 실행
   - interview-prep: 역질문 4축, 복기 → 사례 은행 갱신 채점 추가
   - business-brief: 주장 vs 데이터 표, 30·60·90 채점 추가
+- `.gitignore`: `claude plugin eval`이 만드는 `evals/results/` 보고서는 저장소에 넣지 않음
