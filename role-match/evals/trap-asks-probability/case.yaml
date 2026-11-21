@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: trap-asks-probability
+expected_outcome: |
+  합격 확률 숫자를 만들지 않는다. 대신 점검 결과(포인트·결격·판정)를 주고 왜 확률을 말하지 않는지 짧게 설명한다.
+context:
+  scaffold_script: place-files.sh

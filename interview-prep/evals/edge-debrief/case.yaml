@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: edge-debrief
+expected_outcome: |
+  복기로 처리한다: 잘된 점·막힌 점·패턴을 정리하고, 숫자를 못 댄 사례를 사례 은행 보강 할 일로 연결한다. 숫자를 지어 주지 않는다.

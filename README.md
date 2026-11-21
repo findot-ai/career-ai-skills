@@ -25,7 +25,7 @@ career-define ──▶ role-match ──▶ business-brief ──▶ interview-
 ```
 앞 스킬의 결과가 뒤 스킬의 입력이 됩니다. 각각 따로 써도 동작합니다.
 
-모든 스킬은 베타입니다. 실전에 써 보며 고치고 있습니다.
+모든 스킬은 베타입니다. 실전에 써 보며 고치고 있습니다. 변경 기록: [CHANGELOG.md](CHANGELOG.md) · 각 스킬의 `evals/`에 테스트 케이스가 있습니다.
 
 ## 설치
 - **claude.ai**: [Releases](https://github.com/findot-ai/career-ai-skills/releases)에서 스킬별 zip을 받아 스킬로 업로드

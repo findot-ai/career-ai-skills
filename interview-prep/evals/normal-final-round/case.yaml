@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: normal-final-round
+expected_outcome: |
+  최종(대표) 면접 단계에 맞는 예상 질문과 답의 뼈대를 지원자 사례로 만든다. 역질문을 준다. 사례에 없는 경험을 만들지 않는다.
+context:
+  scaffold_script: place-files.sh
