@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: normal-brief
+expected_outcome: |
+  사업·재무 구조를 정리하고 모든 숫자에 출처 유형(공시·제3자·회사 주장·사용자 제공·추정)을 붙인다. 이 자리가 보는 포인트와 지원자 사례 연결, 면접 준비로 이어진다.
+context:
+  scaffold_script: place-files.sh

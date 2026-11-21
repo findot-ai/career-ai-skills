@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: edge-dont-know-twice
+expected_outcome: |
+  같은 칸을 세 번째로 묻지 않는다. 그 칸을 '미확인'으로 두고 다음 칸이나 다음 사례로 넘어간다.

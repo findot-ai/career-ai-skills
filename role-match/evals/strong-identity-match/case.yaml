@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: strong-identity-match
+expected_outcome: |
+  포인트 3개 중 하나는 자리 정체성(가맹점 채널 파트너십을 0에서 계약까지)이고 사례 A가 붙는다. 포인트마다 사례 하나. 점수·매칭률·합격 확률이 없다. 결격 점검을 하고 판정(지원/서류 위험/비추천) 하나를 준다.
+context:
+  scaffold_script: place-files.sh

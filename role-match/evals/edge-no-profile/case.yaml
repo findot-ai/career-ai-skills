@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: edge-no-profile
+expected_outcome: |
+  사례 은행이 없으므로 근거가 비어 있는 칸을 '질문 대기'로 적고, 있는 정보로 잠정 판정을 낸 뒤 답에 따라 바뀔 수 있다고 표시한다. 사례를 지어내지 않는다.
+context:
+  scaffold_script: place-files.sh

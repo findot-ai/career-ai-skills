@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: normal-start
+expected_outcome: |
+  바로 경력기술서를 써 주지 않고, 사례를 끌어내는 질문을 한다. 숫자를 추정해 채우지 않는다.
